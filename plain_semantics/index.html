@@ -32,7 +32,9 @@ description: "Plain and simple."
                                        {% endif %}
                                   {% endfor %}
                               </div>
-                              {{ post.excerpt | truncate: 108 }}
+                              <div class="excerpt">
+                                 {{ post.excerpt | truncate: 115 }}
+                              </div>
                           </div>
                       </article>
                    </a>
